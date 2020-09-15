@@ -140,13 +140,12 @@ table {
   box-sizing: border-box;
 }
 
-
-/* colors */
-/* PLS Green #55993C */
-/* PLS Blue #1E4E85*/
-/* Black #101010 */
-/* Background Blue #EDF2F7 */
-/* White Screen background #fcfcfc */
+/* COLORS */
+/* pls green #55993C */
+/* pls blue #1E4E85*/
+/* black text #101010 */
+/* background blue #EDF2F7 */
+/* white background #FCFCFC */
 
 html {
   color: #101010;
@@ -214,6 +213,8 @@ p {
 }
 
 button {
+  background-color: #1E4E85;
+  color: #FCFCFC;
   font-family: lato, sans-serif;
   font-size: 1.4;
   font-style: normal;
