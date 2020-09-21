@@ -7,18 +7,18 @@
 <!--<![endif]-->
 
 <head>
-    < <!-- ADD GOOGLE ANALYTICS TRACKING -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Positive Lab Service</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- iconify icons -->
-        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-        <!-- add adobe fonts -->
-        <link rel="stylesheet" href="https://use.typekit.net/pqs8idm.css">
-        <!-- main stylesheet link -->
-        <link rel="stylesheet" href="">
+    <!-- ADD GOOGLE ANALYTICS TRACKING -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Positive Lab Service</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iconify icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- add adobe fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/pqs8idm.css">
+    <!-- main stylesheet link -->
+    <link rel="stylesheet" href="">
 </head>
 
 <body>
@@ -33,13 +33,14 @@
             <a href="/about-us.html">About Us</a>
         </div>
 
-
     </header>
     <main>
         <h1>About Us</h1>
         <!-- ADD IMAGE -->
-        <img src="">
+        <img src="/images/image-final-aboutus-header-licensed.jpeg" class="hero-image-small"
+            alt="scientists in labcoats">
         <!-- ADD VALUES ICON -->
+        <img src="/images/icon-aboutus-value-noun_Value_2391602.svg" alt="hands with stars value icon">
         <section>
             <h2>Values</h2>
             <p class="blue-text">Our core values are to provide compliant high-quality data, be responsive and establish
@@ -81,6 +82,7 @@
         </section>
         <section class="history">
             <!-- ADD SCROLL ICON -->
+            <img src="/images/icon-aboutus-history-noun_History_2912985.svg" alt="ancient scroll icon">
             <h2>History</h2>
             <p class="blue-text">In 1904 chemical engineers Emory Smith and Arthur Emery began their business with a
                 simple goal of providing compliant high-quality data and establishing long-term partnerships with their
@@ -97,6 +99,7 @@
 
         <section class="mission">
             <!-- INSERT SPACESHIP ICON -->
+            <img src="/images/icon-aboutus-rocket-ship-noun_rocket ship_2664309.svg" alt="rocket ship">
             <h2>Mission</h2>
             <p class="blue-text">At Positive Lab Service &#40;PLS&#41;, we recognize the importance of our data in
                 support of making critical decisions related to protection of the public health and environment. Our
@@ -104,15 +107,18 @@
                 precise, complete, representative, scientifically sound, and legally defensible in a timely manner.</p>
             <div class="mission-quote">
                 <!-- ADD LARGER GREEN QUOTES AROUND -->
-                <blockquote>The long-term relationships we have developed stem from our unmatched service, accurate data
+                <blockquote> <span class="quotation-mark">&#8220;</span> The long-term relationships we have developed
+                    stem from our unmatched service, accurate data
                     and quick turnaround times, and competitive pricing. I pride myself on being your single point of
-                    contact for any of your service needs, call me anytime.</blockquote>
+                    contact for any of your service needs, call me anytime. <span class="quotation-mark">&#8221;</span>
+                </blockquote>
                 <p class="quoted-person">John Schmidt</p>
                 <p class="quoted-person-job">Laboratory Manager</p>
             </div>
         </section>
         <section class="careers">
             <!-- INSERT BRIEFCASE ICON -->
+            <img src="/images/icon-aboutus-briefcase-noun_Briefcase_1090727.svg" alt="briefcase icon">
             <h2>Careers</h2>
             <p>Our diversity practices provide a world of opportunities.</p>
             <p>Every day at Positive Lab Service, we give each person the opportunity to make an impact by leveraging
@@ -123,10 +129,27 @@
                 come grow with us.</p>
             <div>
                 <!-- ADD CONTACT BOXES AND SEND BUTTON -->
+                <form method="post" name="contact_form" action="contact-form-handler.php">
+                    Name:
+                    <input type="text" name="name">
+                    Contact E-mail:
+                    <input type="text" name="email">
+                    Contact Phone:
+                    <input type="text" name="email">
+                    Company Name:
+                    <input type="text" name="email">
+                    Message:
+                    <textarea name="message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
                 <button>Send</button>
 
             </div>
         </section>
+        <!-- BACK TO TOP LINK -->
+        <div class="back-to-top">
+            <a href="">Back To Top</a>
+        </div>
     </main>
     <footer>
         <div class="footer-logo">
@@ -140,12 +163,22 @@
             <li class="blue-text"> &#169; 2020 All Rights Reserved</li>
         </ul>
         <p class="se-family-light">Smith-Emery Family of Companies</p>
-        <!-- LINK TO MATT BASS DESIGN -->
-        <a href="https://www.mattbass.design">
-            <p>Website by Matt Bass Design</p>
-        </a>
+        <div class="mbdesign">
+            <!-- LINK TO MATT BASS DESIGN -->
+            <a href="https://www.mattbass.design">
+                <p>Website by Matt Bass Design</p>
+            </a>
+        </div>
     </footer>
-    <script src="" async defer></script>
+
+    <script language="JavaScript">
+        var frmvalidator = new Validator("contactform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email",
+            "Please enter a valid email address");
+    </script>
+    <!-- <script src="" async defer></script> -->
 </body>
 
 </html>

@@ -142,10 +142,11 @@ table {
 
 /* COLORS */
 /* pls green #55993C */
-/* pls blue #1E4E85*/
+/* OLD pls blue #1E4E85*/
 /* black text #101010 */
 /* background blue #EDF2F7 */
 /* white background #FCFCFC */
+/* NEW PLS TEXT BLUE #19416F */
 
 html {
   color: #101010;
@@ -169,6 +170,7 @@ h1 {
 }
 
 h2 {
+  color: #101010;
   font-family: old-standard, serif;
   font-size: 3.2rem;
   font-weight: 400;
@@ -179,7 +181,6 @@ h3 {
   font-family: lato, sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
-  font-style: italic;
 }
 
 h4 {
@@ -191,6 +192,7 @@ h4 {
 }
 
 h5 {
+  color: #101010;
   font-family: lato, sans-serif;
   font-size: 1.8rem;
   font-style: italic;
@@ -206,17 +208,123 @@ h6 {
 }
 
 p {
+  color: #19416f;
   font-family: lato, sans-serif;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
 }
 
+li {
+  font-family: lato, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
 button {
-  background-color: #1E4E85;
-  color: #FCFCFC;
+  background-color: #1e4e85;
+  color: #fcfcfc;
   font-family: lato, sans-serif;
   font-size: 1.4;
   font-style: normal;
   font-weight: 600;
+  width: 14.7rem;
+  height: 4.9rem;
+}
+
+/* MOBILE SIZE / BASE DESIGN */
+
+/* IMAGES */
+
+/* HEADER */
+
+/* FOOTER */
+
+section {
+  display: grid;
+  grid-gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* LANDING */
+
+/* TESTING */
+
+/* SERVICES */
+
+/* RESOURES */
+
+/* ABOUT US */
+
+/* TABLET SIZE */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* IMAGES */
+
+  /* HEADER */
+
+  /* FOOTER */
+
+  section {
+    display: grid;
+    grid-gap: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  /* LANDING */
+
+  /* TESTING */
+
+  /* SERVICES */
+
+  /* RESOURES */
+
+  /* ABOUT US */
+
+  /* TABLET SIZE */
+}
+
+/* DESKTOP SIZE */
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* IMAGES */
+
+  /* HEADER */
+
+  /* FOOTER */
+
+  section {
+    display: grid;
+    grid-gap: 2rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  /* LANDING */
+
+  /* TESTING */
+
+  /* SERVICES */
+
+  /* RESOURES */
+
+  /* ABOUT US */
+
+  /* TABLET SIZE */
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  /* LANDING */
+
+  /* TESTING */
+
+  /* SERVICES */
+
+  /* RESOURES */
+
+  /* ABOUT US */
 }
