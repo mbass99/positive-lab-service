@@ -142,7 +142,7 @@ table {
 
 /* COLORS */
 /* pls green #55993C */
-/* OLD pls blue #1E4E85*/
+/* pls blue for icons #1E4E85*/
 /* black text #101010 */
 /* background blue #EDF2F7 */
 /* white background #FCFCFC */
@@ -175,12 +175,14 @@ h2 {
   font-size: 3.2rem;
   font-weight: 400;
   font-style: normal;
+  line-height: 4.8rem;
 }
 
 h3 {
   font-family: lato, sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
+  line-height: 3.2rem;
 }
 
 h4 {
@@ -198,6 +200,7 @@ h5 {
   font-style: italic;
   font-size: 1.8rem;
   font-weight: 700;
+  line-height: 2.4rem;
 }
 
 h6 {
@@ -213,6 +216,7 @@ p {
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
+  line-height: 3.2rem;
 }
 
 li {
@@ -237,18 +241,111 @@ button {
 
 /* IMAGES */
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* ICONIFY ICONS */
+.iconify {
+  padding-right: 0.8rem;
+}
+
+/* NOUN PROJECT ICONS */
+/* USE FILTER FOR COLORS from this page https://codepen.io/sosuke/pen/Pjoqqp */
+.noun-project-organics,
+.noun-project-inorganics {
+  filter: invert(23%) sepia(20%) saturate(3762%) hue-rotate(186deg)
+    brightness(98%) contrast(87%);
+}
+
 /* HEADER */
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 4.8rem;
+  height: 4.6rem;
+}
+
+.menu-dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-dropdown h6 {
+  padding: 1.6rem;
+}
 
 /* FOOTER */
 
 section {
   display: grid;
-  grid-gap: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 3.2rem 1rem;
 }
 
 /* LANDING */
+
+.hero {
+  background-image: url(/images/image-final-landing-hero-shutterstock_421927375.jpg);
+}
+
+.hero:background {
+  height: 44.9rem;
+}
+
+.hero-sliders {
+  grid-column: col start 1 / span 4;
+  grid-row: 1;
+}
+
+.hero-tag-slider-two,
+.hero-tag-slider-three h3 {
+  padding: 0.8rem;
+}
+
+.landing-one p {
+  padding-top: 3.2rem;
+}
+
+.landing-two {
+  background-color: #edf2f7;
+  border-top: solid #55993c;
+  border-bottom: solid #55993c;
+  border-width: thin;
+}
+
+.landing-two h2 {
+  padding-bottom: 0.8rem;
+  text-align: center;
+}
+
+.noun-project-organics,
+.noun-project-inorganics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3.2rem;
+  width: 16.7rem;
+}
+
+.logo-and-label {
+  padding-bottom: 4rem;
+}
+
+.logo-and-label h3 {
+  padding-bottom: 2.4rem;
+  text-align: center;
+}
+
+.landing-three h5 {
+  padding-bottom: 3.2rem;
+}
 
 /* TESTING */
 
