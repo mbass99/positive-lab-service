@@ -325,7 +325,8 @@ section {
   padding-top: 3.2rem;
 }
 
-.landing-two, .history {
+.landing-two,
+.history {
   background-color: #edf2f7;
 }
 
@@ -369,7 +370,8 @@ section {
   padding-top: 2.4rem;
 }
 
-.contact-form {
+.contact-form,
+.careers {
   border-bottom: none;
 }
 
@@ -407,8 +409,6 @@ h2 {
 .values-list {
   padding: 3.2rem 0;
 }
-
-
 
 .scroll {
   display: block;
