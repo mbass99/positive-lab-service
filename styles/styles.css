@@ -225,6 +225,7 @@ li {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 500;
+  line-height: 2.4rem;
   padding-bottom: 0.8rem;
 }
 
@@ -290,8 +291,31 @@ header {
 
 /* FOOTER */
 
+footer {
+  padding: 1rem;
+}
+
 .footer-logo {
   width: 16.8rem;
+}
+
+.back-to-top {
+  text-align: center;
+  padding: 3.2rem 0;
+}
+
+.back-to-top a {
+  color: #101010;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.back-to-top a:hover {
+  color: #55993c;
+}
+
+.back-to-top a:visited {
+  color: #1e4e85;
 }
 
 section {
