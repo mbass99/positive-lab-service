@@ -220,6 +220,7 @@ p {
 }
 
 li {
+  color: #19416f;
   font-family: lato, sans-serif;
   font-size: 1.4rem;
   font-style: normal;
@@ -257,7 +258,9 @@ img {
 .noun-project-organics,
 .noun-project-inorganics,
 .value,
-.scroll {
+.scroll,
+.rocket,
+.briefcase {
   filter: invert(23%) sepia(20%) saturate(3762%) hue-rotate(186deg)
     brightness(98%) contrast(87%);
 }
@@ -315,14 +318,14 @@ section {
 
 .hero-tag-slider-two,
 .hero-tag-slider-three h3 {
-  padding: 0.8rem;
+  padding: 0.8rem 0;
 }
 
 .landing-one p {
   padding-top: 3.2rem;
 }
 
-.landing-two {
+.landing-two, .history {
   background-color: #edf2f7;
 }
 
@@ -378,17 +381,79 @@ section {
 
 /* ABOUT US */
 
+.company-values,
+.history,
+.mission,
+.careers,
+h2 {
+  padding-bottom: 0.8rem;
+}
+
 #about-us {
   padding: 3.2rem;
   text-align: center;
 }
 
-.value-icon {
+.about-us-hero img {
+  padding: 0 1rem;
+}
+
+.value {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 3.2rem;
   width: 7.4rem;
+}
+.values-list {
+  padding: 3.2rem 0;
+}
+
+
+
+.scroll {
+  display: block;
+  margin: auto;
+  width: 7.1rem;
+}
+
+.rocket {
+  margin: auto;
+  width: 5rem;
+}
+
+.mission-quote {
+  background-color: #edf2f7;
+  border: solid #1e4e85;
+  border-width: thin;
+  margin: 2.4rem 0;
+  padding: 1rem;
+}
+
+/* NEED TO FIGURE QUOTES OUT */
+q {
+  color: #55993c;
+  content: open-quote;
+  font-weight: bold;
+  font-size: 4.1rem;
+}
+
+.quoted-person {
+  text-align: right;
+  text-decoration: underline;
+}
+
+.quoted-person-job {
+  font-family: old-standard, serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 4.8rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.briefcase {
+  margin: auto;
+  width: 5rem;
 }
 
 /* TABLET SIZE */
