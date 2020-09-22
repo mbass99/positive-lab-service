@@ -15,8 +15,9 @@
     <!-- main stylesheet link -->
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-
+<main>
 <body>
+    <div class="container">
     <header>
         <!-- ADD SMALL LOGO -->
         <img src="/images/logo-pls-small-header.svg" class="header-logo" alt="pls-small-logo">
@@ -69,7 +70,7 @@
             <img src="/images/logo-pls-final-co-given-web.svg" class="pls-hero-logo" alt="positive lab logo">
         </div>
     </section>
-    <main>
+   
         <section class="landing-one">
             <h3>Professional Environmental Laboratory Testing Services</h3>
             <h3>Certified by the State Water Resources Control Board</h3>
@@ -113,10 +114,13 @@
                     Consultant Engineers, Construction, Energy, Waste Management, Private Sector and Public Agencies.
                 </p>
             </div>
-            <div>
-                <!-- iconify documents icon -->
-                <span class="iconify" data-inline="false" data-icon="et:documents" style="color: #1E4E85;"></span>
-                <h2>Certifications &amp; Permits</h2>
+            <div class="landing-certifications">
+                <div class="permit-logo-and-header">
+                    <!-- iconify documents icon -->
+                    <span class="iconify" data-inline="false" data-icon="et:documents"
+                        style="color: #1E4E85; font-size: 50px;"></span>
+                    <h2>Certifications &amp; Permits</h2>
+                </div>
                 <div>
                     <ul class="list-with-icons">
                         <!-- LIST WITH ICONS-->
@@ -130,7 +134,7 @@
                                     style="color: #55993C;"></span>
                                 California Certificate of Environmental Accreditation/ Mobile Laboratory</li>
 
-
+                            <!-- FIX TEXT WRAP AND SMALL SIZE?  ADD LINK TO -->
                             <li><span class="iconify" data-inline="false" data-icon="bi:arrow-right-square-fill"
                                     style="color: #55993C;"></span>
                                 Los Angeles County Sanitation District
@@ -151,20 +155,28 @@
             <!-- INSERT CONTACT FORM AND BUTTON -->
             <div>
                 <!-- ADD CONTACT BOXES AND SEND BUTTON -->
+
+                <!-- NEED TO FIX BOX & BUTTON -->
                 <form method="post" name="contact_form" action="contact-form-handler.php">
                     Name:
+
                     <input type="text" name="name">
                     Contact E-mail:
+
                     <input type="text" name="email">
                     Contact Phone:
+
                     <input type="text" name="email">
                     Company Name:
+
                     <input type="text" name="email">
                     Message:
                     <textarea name="message"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-                <button>Send</button>
+                <div class="button-div">
+                    <button>Send</button>
+                </div>
 
             </div>
 
@@ -196,7 +208,7 @@
 
 
     <script src="" async defer></script>
-
+</div>
 </body>
 
 </html>

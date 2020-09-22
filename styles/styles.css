@@ -224,6 +224,7 @@ li {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 500;
+  padding-bottom: 0.8rem;
 }
 
 button {
@@ -254,7 +255,9 @@ img {
 /* NOUN PROJECT ICONS */
 /* USE FILTER FOR COLORS from this page https://codepen.io/sosuke/pen/Pjoqqp */
 .noun-project-organics,
-.noun-project-inorganics {
+.noun-project-inorganics,
+.value,
+.scroll {
   filter: invert(23%) sepia(20%) saturate(3762%) hue-rotate(186deg)
     brightness(98%) contrast(87%);
 }
@@ -284,9 +287,15 @@ header {
 
 /* FOOTER */
 
+.footer-logo {
+  width: 16.8rem;
+}
+
 section {
   display: grid;
   padding: 3.2rem 1rem;
+  border-bottom: solid #55993c;
+  border-width: thin;
 }
 
 /* LANDING */
@@ -315,9 +324,6 @@ section {
 
 .landing-two {
   background-color: #edf2f7;
-  border-top: solid #55993c;
-  border-bottom: solid #55993c;
-  border-width: thin;
 }
 
 .landing-two h2 {
@@ -347,6 +353,23 @@ section {
   padding-bottom: 3.2rem;
 }
 
+.landing-three,
+.blue-text {
+  padding-top: 1.6rem;
+}
+.permit-logo-and-header {
+  text-align: center;
+  padding-bottom: 1.6rem;
+}
+
+.landing-certifications {
+  padding-top: 2.4rem;
+}
+
+.contact-form {
+  border-bottom: none;
+}
+
 /* TESTING */
 
 /* SERVICES */
@@ -354,6 +377,19 @@ section {
 /* RESOURES */
 
 /* ABOUT US */
+
+#about-us {
+  padding: 3.2rem;
+  text-align: center;
+}
+
+.value-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3.2rem;
+  width: 7.4rem;
+}
 
 /* TABLET SIZE */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
