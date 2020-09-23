@@ -403,7 +403,24 @@ section {
 
 /* SERVICES */
 
-/* RESOURES */
+/* RESOURCES */
+
+.resource-forms {
+  border-bottom: none;
+}
+
+.resource-forms h2 {
+  text-align: center;
+}
+
+/* MIGHT NEED TO ADJUST ICONS B/C ICONIFY FORMAT */
+.chain-of-custody,
+.credit-application,
+.credit-card-authorization,
+.list-of-services {
+  text-align: center;
+  padding: 2.4rem 0;
+}
 
 /* ABOUT US */
 
