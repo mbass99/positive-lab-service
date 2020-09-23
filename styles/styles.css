@@ -226,7 +226,7 @@ li {
   font-style: normal;
   font-weight: 500;
   line-height: 2.4rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
 }
 
 button {
@@ -292,7 +292,7 @@ header {
 /* FOOTER */
 
 footer {
-  padding: 1rem;
+  padding: 1rem 1rem 3rem;
 }
 
 .footer-logo {
@@ -315,6 +315,22 @@ footer {
 }
 
 .back-to-top a:visited {
+  color: #1e4e85;
+}
+
+.mbdesign {
+  padding: 3rem 0;
+}
+
+.mbdesign a {
+  text-decoration-line: none;
+}
+
+.mbdesign a:hover {
+  color: #55993c;
+}
+
+.mbdesign a:visited {
   color: #1e4e85;
 }
 
@@ -403,8 +419,91 @@ section {
 
 /* SERVICES */
 
-.rapid-response{
-  border-bottom: none;
+.services-main,
+.mobile-laboratory {
+  background-color: #edf2f7;
+}
+
+#services {
+  padding-bottom: 1.6rem;
+}
+
+.services-hazardous-waste h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.services-soil h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.services-water-services h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.services-soil-vapor h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.mobile-laboratory h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.field-services h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.rapid-response h3 {
+  padding-top: 3.2rem;
+  text-align: center;
+}
+
+.services-hazardous-waste p {
+  padding-top: 2.4rem;
+}
+
+.services-soil-vapor p {
+  padding: 2.4rem 0;
+}
+
+.services-soil p {
+  padding: 2.4rem 0;
+}
+
+.services-water-services p {
+  padding: 2.4rem 0;
+}
+
+.field-services p {
+  padding: 2.4rem 0;
+}
+
+.rapid-response p {
+  padding: 2.4rem 0;
+}
+
+.methods-list {
+  padding: 2.4rem 0;
+}
+
+.methods-list h4 {
+  padding: 0.8rem 0;
+}
+.services-soil-vapor-list p {
+  padding: 0.4rem;
+}
+
+.mobile-laboratory p {
+  padding: 2.4rem 0;
+}
+
+.rapid-response {
+  background-color: #edf2f7;
 }
 
 /* RESOURCES */
