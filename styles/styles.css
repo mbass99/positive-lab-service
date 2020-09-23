@@ -403,6 +403,10 @@ section {
 
 /* SERVICES */
 
+.rapid-response{
+  border-bottom: none;
+}
+
 /* RESOURCES */
 
 .resource-forms {
