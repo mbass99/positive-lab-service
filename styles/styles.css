@@ -147,6 +147,7 @@ table {
 /* background blue #EDF2F7 */
 /* white background #FCFCFC */
 /* NEW PLS TEXT BLUE #19416F */
+/* MB Design Grey Text #565657 */
 
 html {
   color: #101010;
@@ -335,7 +336,13 @@ footer {
 }
 
 .mbdesign {
-  padding: 3rem 0;
+  text-align: center;
+  padding: 3rem 0 0;
+}
+
+.mbdesign p {
+  color: #565657;
+  text-transform: lowercase;
 }
 
 .mbdesign a {
@@ -465,6 +472,16 @@ section {
   text-align: center;
 }
 
+.volatile-three h4 {
+  padding: 2.4rem 0;
+  text-align: center;
+}
+
+.volatile-two h4 {
+  padding: 2.4rem;
+  text-align: center;
+}
+
 .volatile,
 .extractables,
 .vapor {
@@ -527,9 +544,8 @@ section {
   border-bottom: none;
 }
 
-.inorganics h2 {
+.inorganics-head h2 {
   text-align: center;
-  padding-bottom: 3.2rem;
 }
 
 .inorganics-metals-cations h3 {
@@ -545,7 +561,9 @@ section {
 }
 
 .wet-chemistry h3 {
+  color: #55993c;
   padding-bottom: 2.4rem;
+  text-align: center;
 }
 
 .wet-chemistry-icon {
@@ -556,7 +574,8 @@ section {
 }
 
 .inorganics-metals-cations,
-.wet-chemistry {
+.wet-chemistry,
+.inorganics-head {
   border-bottom: none;
 }
 
@@ -642,10 +661,12 @@ section {
 
 .chain-of-custody .iconify {
   padding-right: 0;
+  padding-bottom: 3.2rem;
 }
 
 .credit-application .iconify {
   padding-right: 0;
+  padding-bottom: 3.2rem;
 }
 
 .credit-card-authorization .iconify {
@@ -655,6 +676,14 @@ section {
 
 .resource-forms .iconify {
   padding-right: 0;
+  padding-bottom: 3.2rem;
+}
+
+.chain-of-custody,
+.credit-application,
+.resource-forms,
+.credit-card-authorization h3 {
+  color: #19416f;
 }
 
 /* RESOURCES */
@@ -749,6 +778,13 @@ q {
 .briefcase {
   margin: auto;
   width: 5rem;
+}
+
+.se-family-light {
+  color: #565657;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
 }
 
 /* TABLET SIZE */
