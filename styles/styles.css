@@ -897,12 +897,16 @@ q {
   width: 30rem;
 }
 
+.icon-label h4{
+  width: 18rem;
+}
+}
 
 .list-with-icons{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -952,7 +956,6 @@ q {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 28rem;
   padding-bottom: 2.4rem;
-
 }
 
 .metal-two{
