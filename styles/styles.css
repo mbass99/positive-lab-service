@@ -190,6 +190,7 @@ h4 {
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
+  text-transform: capitalize;
   text-decoration: underline;
 }
 
@@ -208,6 +209,7 @@ h6 {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 p {
@@ -263,7 +265,10 @@ img {
 .rocket,
 .briefcase,
 .volatile,
-.extractables {
+.extractables,
+.vapor,
+.metals,
+.wet-chemistry-icon {
   filter: invert(23%) sepia(20%) saturate(3762%) hue-rotate(186deg)
     brightness(98%) contrast(87%);
 }
@@ -299,6 +304,15 @@ footer {
 
 .footer-logo {
   width: 16.8rem;
+}
+
+.footer-contact-list {
+  padding: 3.2rem 0;
+}
+
+.footer-contact-list li {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .back-to-top {
@@ -337,14 +351,19 @@ footer {
 }
 
 section {
-  display: grid;
-  padding: 3.2rem 1rem;
   border-bottom: solid #55993c;
   border-width: thin;
+  display: grid;
+  padding: 3.2rem 1rem;
 }
 
 .green-text {
   color: #55993c;
+}
+
+/* MASTER DIV BACKGROUND  */
+.colored-background {
+  background-color: #edf2f7;
 }
 
 /* LANDING */
@@ -369,11 +388,6 @@ section {
 
 .landing-one p {
   padding-top: 3.2rem;
-}
-
-.landing-two,
-.history {
-  background-color: #edf2f7;
 }
 
 .landing-two h2 {
@@ -423,8 +437,8 @@ section {
 
 /* TESTING */
 
-.organics {
-  background-color: #edf2f7;
+.organics-soil-vapor {
+  border-bottom: none;
 }
 
 .organics-head h2 {
@@ -448,6 +462,7 @@ section {
 
 .volatile-header h4 {
   padding: 2.4rem 0;
+  text-align: center;
 }
 
 .volatile,
@@ -459,12 +474,93 @@ section {
   width: 7.4rem;
 }
 
-/* SERVICES */
-
-.services-main,
-.mobile-laboratory {
-  background-color: #edf2f7;
+.organics-header h3 {
+  color: #55993c;
+  padding: 3.2rem 0;
+  text-align: center;
 }
+
+.extractables-header h3 {
+  color: #55993c;
+  padding: 3.2rem 0;
+  text-align: center;
+}
+
+.extractables-header {
+  padding-bottom: 1.6rem;
+}
+
+.organics-soil-vapor h3 {
+  color: #55993c;
+  padding: 3.2rem 0 1.6rem;
+  text-align: center;
+}
+
+.organics-extractables h4 {
+  text-align: center;
+  padding-bottom: 1.6rem;
+}
+
+.icon-label h4 {
+  padding-top: 1.6rem;
+}
+
+.icon-label {
+  margin: auto;
+  padding-bottom: 2.4rem;
+}
+
+.icon-label h4 {
+  text-align: center;
+}
+
+.extractables-secondary {
+  border-bottom: none;
+}
+
+.organics-soil-vapor h4 {
+  padding: 1.6rem 0;
+  text-align: center;
+}
+
+.soil-vapor-secondary {
+  border-bottom: none;
+}
+
+.inorganics h2 {
+  text-align: center;
+  padding-bottom: 3.2rem;
+}
+
+.inorganics-metals-cations h3 {
+  color: #55993c;
+  text-align: center;
+  padding-bottom: 2.4rem;
+}
+
+.metals {
+  display: block;
+  margin: auto;
+  width: 7.4rem;
+}
+
+.wet-chemistry h3 {
+  padding-bottom: 2.4rem;
+}
+
+.wet-chemistry-icon {
+  display: block;
+  margin: auto;
+  padding-bottom: 1.6rem;
+  width: 6rem;
+}
+
+.inorganics-metals-cations,
+.wet-chemistry {
+  border-bottom: none;
+}
+
+/* SERVICES */
 
 #services {
   padding-bottom: 1.6rem;
@@ -544,8 +640,21 @@ section {
   padding: 2.4rem 0;
 }
 
-.rapid-response {
-  background-color: #edf2f7;
+.chain-of-custody .iconify {
+  padding-right: 0;
+}
+
+.credit-application .iconify {
+  padding-right: 0;
+}
+
+.credit-card-authorization .iconify {
+  padding-right: 0;
+  padding-bottom: 3.2rem;
+}
+
+.resource-forms .iconify {
+  padding-right: 0;
 }
 
 /* RESOURCES */
