@@ -563,7 +563,7 @@ section {
 
 .wet-chemistry h3 {
   color: #55993c;
-  padding-bottom: 2.4rem;
+  padding: 2.4rem 0;
   text-align: center;
 }
 
@@ -811,7 +811,7 @@ q {
 
   section {
     /* display: grid; */
-    display: flex;
+  
     /* grid-gap: 2rem; */
     padding-left: 6rem;
     padding-right: 6rem;
@@ -886,6 +886,84 @@ q {
   }
 
   /* TESTING */
+.organics-head{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 48rem;
+}
+
+.noun-project-organics{
+  width: 30rem;
+}
+
+
+.list-with-icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 4rem;
+  padding-bottom: 2rem;
+}
+
+.column-two-of-four, .column-four-of-four{
+  padding-top: 3.2rem;
+}
+
+
+.volatile-two-and-three{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.organics-extractables h4{
+  padding-bottom: 5.2rem;
+}
+
+.extractables-secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column-two-of-two{
+  padding-top: 3.2rem;
+}
+
+.soil-vapor-secondary{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inorganics-head{
+  padding-bottom: 0;
+}
+
+.inorganics-metals-cations{
+  padding-top: 0;
+}
+
+.inorganics-metals-cations h3{
+  padding-bottom: 0;
+}
+
+.metals-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 28rem;
+  padding-bottom: 2.4rem;
+
+}
+
+.metal-two{
+  padding-top: 20rem;
+}
+
+.wet-chemistry-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
   /* SERVICES */
 
@@ -943,10 +1021,10 @@ q {
   padding-top: 24rem;
 }
 
-/* NEED TO MAKE THIS GRID */
+/* NEED TO MAKE THIS GRID AREA */
 .landing-three{
   display: grid;
-  grid-template-columns: 30%, 60%;
+  
 
 
 
