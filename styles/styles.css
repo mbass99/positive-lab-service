@@ -1030,6 +1030,16 @@ q {
 
   /* RESOURCES TABLET */
 
+  .resources-hero {
+    padding: 0 5rem 6.4rem;
+  }
+
+  .resource-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 0;
+  }
+
   /* ABOUT US TABLET */
 
   .about-us-hero {
@@ -1250,7 +1260,18 @@ q {
 
   /* SERVICES */
 
-  /* RESOURES */
+  /* RESOURCES */
+
+  .resources-hero {
+    padding-top: 6rem;
+  }
+
+  .resource-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 6rem 0;
+  }
 
   /* ABOUT US */
 }
