@@ -792,11 +792,16 @@ q {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   /* IMAGES TABLET */
 
+  .hero-image-small {
+    padding: 1.6rem 5rem 6.4rem;
+  }
+
   /* HEADER TABLET */
 
   header {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    justify-content: space-between;
   }
 
   .menu-dropdown {
