@@ -796,6 +796,12 @@ q {
     padding: 1.6rem 5rem 6.4rem;
   }
 
+  .services-image {
+    height: 25.7rem;
+    width: 35.4rem;
+    object-fit: cover;
+  }
+
   /* HEADER TABLET */
 
   header {
@@ -979,6 +985,65 @@ q {
   }
 
   /* SERVICES TABLET */
+
+  /* FIX THIS WITH CAROUSEL, OTHERWISE DONE BY REMOVING COMMENTS BELOW */
+  .services-offered {
+    /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; */
+    padding-top: 6.4rem;
+  }
+
+  .methods-list,
+  .list-with-icons {
+    display: block;
+  }
+
+  .mobile-laboratory .field-services .rapid-response {
+    padding-left: 5rem;
+  }
+
+  .mobile-laboratory h3 {
+    text-align: left;
+  }
+
+  .rapid-response h3 {
+    text-align: left;
+  }
+  .field-services h3 {
+    text-align: left;
+  }
+
+  .pls-truck {
+    height: 26.4;
+    width: 39.7rem;
+    object-fit: cover;
+  }
+
+ .services-image  {
+    height: 26.4;
+    width: 39.7rem;
+    object-fit: cover;
+  }
+
+.rapid-response-scientist {
+    height: 26.4;
+    width: 39.7rem;
+    object-fit: cover;
+  }
+
+  .mobile-laboratory p {
+    max-width: 48rem;
+  }
+.field-services p {
+  max-width: 48rem;
+}
+
+ .rapid-response p {
+   max-width: 48rem;
+ }
+
+
 
   /* RESOURCES TABLET */
 
