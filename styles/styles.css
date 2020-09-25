@@ -1149,16 +1149,32 @@ q {
     justify-content: space-around;
     padding-left: 20rem;
     padding-right: 20rem;
+    padding-bottom: 0%;
   }
 
   .column-two {
     padding-top: 24rem;
   }
 
-  /* NEED TO MAKE THIS GRID AREA */
+
+.landing-lab{
+  padding-bottom: 4rem;
+}
+
   .landing-three {
-    display: grid;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
+
+  .landing-three-left{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 6rem 0;
+    width: 40.6rem;
+  }
+
 
   /* TESTING */
 
@@ -1260,11 +1276,42 @@ q {
 
   /* SERVICES */
 
+  .services-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+    grid-template-rows: 2;
+  }
+
+ #services{
+   
+
+ }
+
+  .services-main p{
+    grid-column: col start 2 / span 6;
+    grid-row: 2;
+  }
+
+  .services-water-services, .services-hazardous-waste, .services-soil, .services-soil-vapor{
+    width: 30rem;
+  }
+
+  /* DONE EXCEPT FOR SLIDER CHANGE */
+
+  .services-offered{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-gap: 12rem; */
+    margin-left: 5rem;
+  }
+
+  .services-image{
+    object-fit: cover;
+  }
+
   /* RESOURCES */
 
-  .resources-hero {
-    padding-top: 6rem;
-  }
+ 
 
   .resource-grid {
     align-items: center;
