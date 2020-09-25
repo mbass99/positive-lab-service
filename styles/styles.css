@@ -438,7 +438,6 @@ section {
   padding-top: 2.4rem;
 }
 
-.contact-form,
 .careers {
   border-bottom: none;
 }
@@ -796,6 +795,7 @@ q {
     padding: 1.6rem 5rem 6.4rem;
   }
 
+  /* OLD DESIGN FORMAT */
   /* .services-image {
     height: 25.7rem;
     width: 35.4rem;
@@ -831,7 +831,6 @@ q {
 
   section {
     /* display: grid; */
-
     /* grid-gap: 2rem; */
     padding-left: 6rem;
     padding-right: 6rem;
@@ -1032,6 +1031,46 @@ q {
   /* RESOURCES TABLET */
 
   /* ABOUT US TABLET */
+
+  .about-us-hero {
+    padding: 0 5rem 6.4rem;
+  }
+
+  .value,
+  .rocket,
+  .briefcase,
+  .scroll {
+    display: block;
+  }
+
+  .company-values {
+    padding: 0rem 10rem 6rem;
+  }
+
+  .history {
+    padding: 6rem 10rem;
+  }
+
+  .careers {
+    padding: 6rem 10rem;
+  }
+
+  .mission {
+    padding: 6rem 10rem;
+  }
+
+  .mission-quote {
+    float: right;
+    margin-top: 6.4rem;
+    width: 35rem;
+  }
+
+  .careers {
+    padding: 6rem 10rem;
+  }
+  .se-family-light {
+    text-align: center;
+  }
 }
 
 /* DESKTOP SIZE */
