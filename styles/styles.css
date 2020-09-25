@@ -796,11 +796,11 @@ q {
     padding: 1.6rem 5rem 6.4rem;
   }
 
-  .services-image {
+  /* .services-image {
     height: 25.7rem;
     width: 35.4rem;
     object-fit: cover;
-  }
+  } */
 
   /* HEADER TABLET */
 
@@ -999,9 +999,9 @@ q {
     display: block;
   }
 
-  .mobile-laboratory .field-services .rapid-response {
+  /* .mobile-laboratory .field-services .rapid-response {
     padding-left: 5rem;
-  }
+  } */
 
   .mobile-laboratory h3 {
     text-align: left;
@@ -1016,34 +1016,18 @@ q {
 
   .pls-truck {
     height: 26.4;
-    width: 39.7rem;
     object-fit: cover;
   }
 
- .services-image  {
+  .rapid-response-scientist {
     height: 26.4;
-    width: 39.7rem;
     object-fit: cover;
-  }
-
-.rapid-response-scientist {
-    height: 26.4;
-    width: 39.7rem;
-    object-fit: cover;
+    /* width: 39.7rem; */
   }
 
   .mobile-laboratory p {
-    max-width: 48rem;
+    /* max-width: 48rem; */
   }
-.field-services p {
-  max-width: 48rem;
-}
-
- .rapid-response p {
-   max-width: 48rem;
- }
-
-
 
   /* RESOURCES TABLET */
 
