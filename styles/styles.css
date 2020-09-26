@@ -1282,15 +1282,11 @@ q {
     grid-template-rows: 2;
   }
 
- #services{
-   
-
+ .services-explanation{
+   padding-left: 10rem;
+   max-width: 83rem;
  }
 
-  .services-main p{
-    grid-column: col start 2 / span 6;
-    grid-row: 2;
-  }
 
   .services-water-services, .services-hazardous-waste, .services-soil, .services-soil-vapor{
     width: 30rem;
@@ -1301,13 +1297,57 @@ q {
   .services-offered{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-gap: 12rem; */
+    grid-gap: 12rem;
     margin-left: 5rem;
   }
 
   .services-image{
+    height: 20rem;
     object-fit: cover;
   }
+
+  .mobile-laboratory, .field-services{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .mobile-lab-left, .field-services-left{
+    max-width: 62rem;
+  }
+.mobile-lab-left h3{
+  text-align: left;
+}
+
+.mobile-laboratory .list-with-icons{
+  padding-top: 8rem;
+}
+
+.field-services-left .services-image{
+  height: 30rem;
+  object-fit: cover;
+}
+
+.field-services-left h3{
+  text-align: left;
+}
+
+.rapid-response-flex h3{
+  text-align: left;
+}
+
+.field-services .list-with-icons{
+  padding-top: 6rem;
+}
+
+
+.rapid-response-flex{
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  padding-left: 31rem;
+}
 
   /* RESOURCES */
 
