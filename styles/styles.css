@@ -224,6 +224,7 @@ p {
 
 li {
   color: #19416f;
+  /* display: flex; */
   font-family: lato, sans-serif;
   font-size: 1.4rem;
   font-style: normal;
@@ -231,6 +232,7 @@ li {
   line-height: 2.4rem;
   padding-bottom: 0.4rem;
 }
+
 
 button {
   background-color: #1e4e85;
@@ -254,8 +256,11 @@ img {
 
 /* ICONIFY ICONS */
 .iconify {
-  padding-right: 0.8rem;
+  display: inline-block;
+  padding-right: .8rem;
+  
 }
+
 
 /* NOUN PROJECT ICONS */
 /* USE FILTER FOR COLORS from this page https://codepen.io/sosuke/pen/Pjoqqp */
@@ -388,8 +393,11 @@ section {
   grid-row: 1;
 }
 
-.hero-tag-slider-two,
+
+
+.hero-tag-slider-two h3,
 .hero-tag-slider-three h3 {
+  display: flex;
   padding: 0.8rem 0;
 }
 
@@ -438,6 +446,11 @@ section {
   padding-top: 2.4rem;
 }
 
+.certification-list li{
+  align-items: baseline;
+  display: flex;
+}
+
 .careers {
   border-bottom: none;
 }
@@ -455,6 +468,8 @@ section {
 .organics-volatile h3 {
   text-align: center;
 }
+
+
 
 .volatile-header,
 .volatile-two,
@@ -579,11 +594,15 @@ section {
   border-bottom: none;
 }
 
-/* SERVICES */
+/* MOBILE SERVICES */
 
 #services {
   padding-bottom: 1.6rem;
 }
+
+/* .list-with-icons li{
+  display: flex;
+} */
 
 .services-hazardous-waste h3 {
   padding-top: 3.2rem;
@@ -741,8 +760,14 @@ h2 {
 }
 
 .rocket {
+  display: block;
   margin: auto;
   width: 5rem;
+}
+
+.briefcase{
+  display: block;
+  margin: auto;
 }
 
 .mission-quote {
@@ -1044,6 +1069,7 @@ q {
 
   .about-us-hero {
     padding: 0 5rem 6.4rem;
+   
   }
 
   .value,
@@ -1051,6 +1077,7 @@ q {
   .briefcase,
   .scroll {
     display: block;
+    margin: auto;
   }
 
   .company-values {
@@ -1087,9 +1114,9 @@ q {
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* IMAGES */
+  /* DESKTOP IMAGES */
 
-  /* HEADER */
+  /* DESKTOP HEADER */
 
   header {
     padding-left: 9rem;
@@ -1102,7 +1129,7 @@ q {
     justify-content: space-evenly;
   }
 
-  /* FOOTER */
+  /* DESKTOP FOOTER */
   .footer-logo {
     margin: auto;
     padding-bottom: 3.2rem;
@@ -1127,7 +1154,7 @@ q {
     padding-right: 9rem;
   }
 
-  /* LANDING */
+  /* DESKTOP LANDING */
 
   .landing-one-first-h3 {
     padding-left: 10rem;
@@ -1176,7 +1203,7 @@ q {
   }
 
 
-  /* TESTING */
+  /* DESKTOP TESTING */
 
   .organics-head p {
     padding-left: 32rem;
@@ -1193,6 +1220,14 @@ q {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
+  }
+
+  .column-one-of-four li{
+    display: flex;
+  }
+
+  .column-four-of-four li{
+    display: flex;
   }
 
   .column-two-of-four {
@@ -1274,7 +1309,7 @@ q {
     padding-top: 25rem;
   }
 
-  /* SERVICES */
+  /* DESKTOP SERVICES */
 
   .services-grid{
     display: grid;
@@ -1349,7 +1384,7 @@ q {
   padding-left: 31rem;
 }
 
-  /* RESOURCES */
+  /* DESKTOP RESOURCES */
 
  
 
@@ -1361,6 +1396,36 @@ q {
   }
 
   /* ABOUT US */
+
+  .about-us-hero{
+    padding: 3.2rem 21rem 5rem;
+  }
+
+  .company-values, .history, .mission, .careers{
+    padding: 6.6rem 0;
+    max-width: 64rem;
+    margin: auto;
+  }
+
+  .rocket, .briefcase{
+    display: block;
+  }
+
+  .mission-quote{
+    float: right;
+    margin-top: 8rem;
+    width: 35rem;
+  }
+
+  .careers h2{
+    text-align: center;
+  }
+
+  
+
+  .careers p{
+    padding-bottom: 1.6rem;
+  }
 }
 
 /* ----------- Retina Screens ----------- */
