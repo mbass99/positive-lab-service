@@ -645,13 +645,16 @@ section {
 .hero-sliders::-webkit-scrollbar {
   /* width: 10px;
   height: 10px; */
+  display: none;
 }
 .hero-sliders::-webkit-scrollbar-thumb {
   /* background: black;
   border-radius: 10px; */
+  display: none;
 }
 .hero-sliders::-webkit-scrollbar-track {
   background: transparent;
+  display: none;
 }
 
 .hero-sliders > div {
@@ -969,14 +972,16 @@ section {
 .resources-sliders::-webkit-scrollbar {
   /* width: 10px;
   height: 10px; */
-  color: #ffffff;
+ display: none;
 }
 .resources-sliders::-webkit-scrollbar-thumb {
   /* background: black;
   border-radius: 10px; */
+  display: none;
 }
 .resources-sliders::-webkit-scrollbar-track {
   /* background: transparent; */
+  display: none;
 }
 
 .resources-sliders > div {
