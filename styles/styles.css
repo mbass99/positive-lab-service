@@ -2012,6 +2012,10 @@ q {
   .careers p{
     padding-bottom: 1.6rem;
   }
+
+.se-family-light{
+  text-align: center;
+}
 }
 
 /* ----------- Retina Screens ----------- */
