@@ -554,21 +554,23 @@ footer {
   padding-bottom: 1rem;
 }
 
-form{
+.contact-form-box{
   display: flex;
   flex-direction: column;
-  width: 40rem;
+  width: 35rem;
+  padding: 2rem 0;
 }
 
 .contact-name, .contact-email, .contact-phone, .contact-company{
   height: 3.5rem;
   margin-bottom: 1.6rem;
-  width: 23rem;
+  width: 66%;
+  border: #565657 1px solid;
 }
 
 .contact-message{
   height: 13.5rem;
-  width: 40rem;
+  width: 100%;
   margin-bottom: 1.6rem;
 }
 
@@ -1335,7 +1337,11 @@ q {
   }
 /* NEW HEADER 2 END */
 
-
+/* CONTACT FORM */
+.contact-form-box{
+  margin: auto;
+  width: 47rem;
+}
 
   /* FOOTER TABLET */
 
@@ -1672,6 +1678,13 @@ q {
 
   .back-to-top {
     padding-bottom: 4rem;
+  }
+
+  /* CONTACT FORM */
+  .contact-form-box{
+    margin: auto;
+   width: 62rem;
+    
   }
 
   section {
