@@ -1178,12 +1178,44 @@ h2 {
   margin: auto;
 }
 
+
 .mission-quote {
   background-color: #edf2f7;
   border: solid #1e4e85;
   border-width: thin;
   margin: 2.4rem 0;
   padding: 1rem;
+}
+
+blockquote {
+  position: relative;
+  margin: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+  position: absolute;
+  font-size: 7em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  content: "\201C";
+  color: #55993c;
+}
+blockquote:after {
+  position: absolute;
+ /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+  float:right;
+  font-size:7em;
+  line-height: 1;
+  right:0;
+  bottom:-0.5em;
+  content: "\201D";
+  color: #55993c;
+}
+
+blockquote cite:before {
+  content: "\2013";
 }
 
 /* NEED TO FIGURE QUOTES OUT */
@@ -1196,7 +1228,7 @@ q {
 
 .quoted-person {
   text-align: right;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .quoted-person-job {
