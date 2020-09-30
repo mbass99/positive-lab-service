@@ -1951,16 +1951,16 @@ q {
     padding: 6rem 0;
   }
 
-  /* ABOUT US */
+  /* DESKTOP ABOUT US  */
 
   .about-us-hero{
     padding: 3.2rem 21rem 5rem;
   }
 
   .company-values, .history, .mission, .careers{
-    padding: 6.6rem 0;
-    max-width: 64rem;
-    margin: auto;
+    padding: 6.6rem 41rem;
+    /* max-width: 64rem; */
+    /* margin: auto; */
   }
 
   .rocket, .briefcase{
@@ -1976,8 +1976,6 @@ q {
   .careers h2{
     text-align: center;
   }
-
-  
 
   .careers p{
     padding-bottom: 1.6rem;
