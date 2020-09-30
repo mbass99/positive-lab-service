@@ -708,23 +708,85 @@ section {
   display: flex;
 } */
 
-.services-hazardous-waste h3 {
+
+.resources-slider-div{
+  text-align: center;
+  overflow: hidden;
+}
+
+.resources-sliders {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+
+
+.resources-sliders::-webkit-scrollbar {
+  /* width: 10px;
+  height: 10px; */
+  color: #ffffff;
+}
+.resources-sliders::-webkit-scrollbar-thumb {
+  /* background: black;
+  border-radius: 10px; */
+}
+.resources-sliders::-webkit-scrollbar-track {
+  /* background: transparent; */
+}
+
+.resources-sliders > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 36rem;
+  /* height: 300px; */
+  margin-right: 5rem;
+  /* border-radius: 10px; */
+  /* background: #eee; */
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* font-size: 100px; */
+}
+.resources-sliders > div:target {
+/*   transform: scale(0.8); */
+}
+.resources-slider-button{
+  padding: 2rem 0;
+}
+
+#services-hazardous-waste h3 {
   padding-top: 3.2rem;
   text-align: center;
 }
 
-.services-soil h3 {
+#services-soil h3 {
   padding-top: 3.2rem;
   text-align: center;
 }
 
-.services-water-services h3 {
+#services-water-services h3 {
   padding-top: 3.2rem;
   text-align: center;
 }
 
-.services-soil-vapor h3 {
-  padding-top: 3.2rem;
+#services-soil-vapor h3 {
+  padding: 3.2rem 0;
   text-align: center;
 }
 
@@ -743,20 +805,33 @@ section {
   text-align: center;
 }
 
-.services-hazardous-waste p {
+#services-hazardous-waste p {
   padding-top: 2.4rem;
+  text-align: left;
 }
 
-.services-soil-vapor p {
+#services-hazardous-waste, .list-with-icons, li{
+  text-align: left;
+}
+
+#services-hazardous-waste, .services-image{
+  height: 27rem;
+  object-fit: cover;
+}
+
+#services-soil-vapor p {
+  /* padding: 2.4rem 0; */
+  text-align: left;
+}
+
+#services-soil p {
+  text-align: left;
   padding: 2.4rem 0;
 }
 
-.services-soil p {
+#services-water-services p {
   padding: 2.4rem 0;
-}
-
-.services-water-services p {
-  padding: 2.4rem 0;
+  text-align: left;
 }
 
 .field-services p {
@@ -773,9 +848,11 @@ section {
 
 .methods-list h4 {
   padding: 0.8rem 0;
+  text-align: left;
 }
 .services-soil-vapor-list p {
   padding: 0.4rem;
+  text-align: left;
 }
 
 .mobile-laboratory p {
@@ -1049,6 +1126,7 @@ q {
   }
 
   .icon-label h4 {
+    margin: auto;
     width: 18rem;
   }
 
@@ -1173,6 +1251,12 @@ q {
     grid-template-columns: 1fr 1fr;
     padding: 3rem 0;
   }
+
+.resources-list, .list-with-icons{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0;
+}
 
   /* ABOUT US TABLET */
 
@@ -1450,17 +1534,17 @@ q {
  }
 
 
-  .services-water-services, .services-hazardous-waste, .services-soil, .services-soil-vapor{
+  /* #services-water-services, #services-hazardous-waste, #services-soil, #services-soil-vapor{
     width: 30rem;
-  }
+  } */
 
   /* DONE EXCEPT FOR SLIDER CHANGE */
 
   .services-offered{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 12rem;
-    margin-left: 5rem;
+    margin-left: 5rem; */
   }
 
   .services-image{
@@ -1468,6 +1552,7 @@ q {
     object-fit: cover;
   }
 
+  
   .mobile-laboratory, .field-services{
     align-items: flex-start;
     display: flex;
