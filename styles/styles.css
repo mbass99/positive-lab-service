@@ -802,6 +802,10 @@ section {
   border-bottom: none;
 }
 
+.organics-head{
+  padding-top: 10rem;
+}
+
 .organics-head h2 {
   text-align: center;
 }
@@ -945,6 +949,9 @@ section {
   display: flex;
 } */
 
+.hero-image-small{
+  padding-top: 5rem;
+}
 
 .resources-slider-div{
   text-align: center;
@@ -1484,6 +1491,7 @@ q {
   .organics-head {
     display: flex;
     flex-direction: column;
+    padding-top: 10rem;
     margin: auto;
     max-width: 48rem;
   }
