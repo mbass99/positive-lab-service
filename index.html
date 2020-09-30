@@ -11,10 +11,6 @@
     <!-- iconify icons -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!-- add adobe fonts -->
-
-    <!-- SLIDER JS FILE -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <!-- FONTS -->
     <link rel="stylesheet" href="https://use.typekit.net/pqs8idm.css">
     <!-- main stylesheet link -->
@@ -25,17 +21,25 @@
     <body>
         <div class="container">
             <header>
-                <!-- ADD SMALL LOGO -->
-                <img src="/images/logo-pls-small-header.svg" class="header-logo" alt="pls-small-logo">
-                <!-- ADD DROPDOWN -->
-                <div class="menu-dropdown">
-                    <!-- ADD MENU HEADER -->
-                    <h6><a href="/testing.html">Testing</a></h6>
-                    <h6><a href="/services.html">Services</a></h6>
-                    <h6> <a href="/resources.html">Resources</a></h6>
-                    <h6><a href="/about-us.html">About Us</a></h6>
-                </div>
+                <div class="top-nav" id="myTopnav">
+                    <!-- ADD SMALL LOGO -->
+                    <img src="/images/logo-pls-small-header.svg" class="header-logo" alt="pls-small-logo">
+                    <!-- checkbox element for dropdown -->
 
+                    <!-- ADD DROPDOWN -->
+                    <div class="menu-dropdown">
+                        <!-- ICONIFY MENU DROPDOWN -->
+                        <div class="menu-icon">
+                            <span class="iconify" data-inline="false" data-icon="dashicons:menu"
+                                style="color: #1E4E85; font-size: 2.4rem;"></span></div>
+                        <!-- ADD MENU HEADER -->
+                        <h6><a href="/testing.html">Testing</a></h6>
+                        <h6><a href="/services.html">Services</a></h6>
+                        <h6> <a href="/resources.html">Resources</a></h6>
+                        <h6><a href="/about-us.html">About Us</a></h6>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
 
             </header>
 
@@ -196,22 +200,22 @@
                     <!-- NEED TO FIX BOX & BUTTON -->
                     <form method="post" name="contact_form" action="contact-form-handler.php">
                         <h6>Name:</h6>
-
-                        <input type="text" name="name">
-
+                        <input type="text" name="name" class="contact-name">
                         <h6>Contact E-mail:</h6>
-                        <input type="text" name="email">
+                        <input type="text" name="email" class="contact-email">
                         <h6>Contact Phone:</h6>
-                        <input type="text" name="email">
+                        <input type="text" name="email" class="contact-phone">
                         <h6>Company Name:</h6>
-                        <input type="text" name="email">
+                        <input type="text" name="email" class="contact-company">
                         <h6>Message:</h6>
-                        <textarea name="message"></textarea>
-                        <input type="submit" value="Submit">
+                        <textarea name="message" class="contact-message"></textarea>
+                        <div class="submit-button-div">
+                            <input type="submit" value="Submit" class="submit-button">
+                        </div>
                     </form>
-                    <div class="button-div">
+                    <!-- <div class="button-div">
                         <button>Send</button>
-                    </div>
+                    </div> -->
                 </section>
             </div>
             <!-- BACK TO TOP LINK -->
