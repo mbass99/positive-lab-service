@@ -20,27 +20,40 @@
 
     <body>
         <div class="container">
+            <!-- OLD HEADER -->
             <header>
                 <div class="top-nav" id="myTopnav">
                     <!-- ADD SMALL LOGO -->
-                    <img src="/images/logo-pls-small-header.svg" class="header-logo" alt="pls-small-logo">
+                    <!-- <img src="/images/logo-pls-small-header.svg" class="header-logo" alt="pls-small-logo"> -->
                     <!-- checkbox element for dropdown -->
 
                     <!-- ADD DROPDOWN -->
                     <div class="menu-dropdown">
                         <!-- ICONIFY MENU DROPDOWN -->
-                        <div class="menu-icon">
+                        <!-- <div class="menu-icon">
                             <span class="iconify" data-inline="false" data-icon="dashicons:menu"
-                                style="color: #1E4E85; font-size: 2.4rem;"></span></div>
+                                style="color: #1E4E85; font-size: 2.4rem;"></span></div> -->
                         <!-- ADD MENU HEADER -->
-                        <h6><a href="/testing.html">Testing</a></h6>
+                        <!-- <h6><a href="/testing.html">Testing</a></h6>
                         <h6><a href="/services.html">Services</a></h6>
                         <h6> <a href="/resources.html">Resources</a></h6>
-                        <h6><a href="/about-us.html">About Us</a></h6>
+                        <h6><a href="/about-us.html">About Us</a></h6> -->
                     </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
                 </div>
 
+            </header>
+            <!-- NEW HEADER -->
+            <header class="header">
+                <a href="/" class="logo"><img src="/images/logo-pls-small-header.svg" alt="pls small logo"> </a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="/testing.html">Testing</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/resources.html">Resources</a></li>
+                    <li><a href="/about-us.html">About</a></li>
+                </ul>
             </header>
 
             <section class="hero">
