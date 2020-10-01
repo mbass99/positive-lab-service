@@ -1993,6 +1993,10 @@ q {
   padding-top: 8rem;
 }
 
+.field-services{
+  justify-content: space-between;
+}
+
 .field-services-left .field-services-image{
   height: 30rem;
   object-fit: cover;
