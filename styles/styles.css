@@ -1322,6 +1322,12 @@ q {
     object-fit: cover;
   }
 
+  .field-services-image{
+    height: 25.7rem;
+    width: 35.4rem;
+    object-fit: cover;
+  }
+
   /* HEADER TABLET */
 
   /* ORIGINAL HEADER */
@@ -1962,6 +1968,11 @@ q {
     object-fit: cover;
   }
 
+  .field-services-image{
+    height: 20rem;
+    object-fit: cover;
+  }
+
   
   .mobile-laboratory, .field-services{
     align-items: flex-start;
@@ -1981,7 +1992,7 @@ q {
   padding-top: 8rem;
 }
 
-.field-services-left .services-image{
+.field-services-left .field-services-image{
   height: 30rem;
   object-fit: cover;
 }
