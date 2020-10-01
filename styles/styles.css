@@ -636,6 +636,7 @@ section {
   display: flex;
   min-height: 24rem;
   overflow-x: auto;
+  overflow: hidden;
   scroll-snap-type: x mandatory;
   
   
