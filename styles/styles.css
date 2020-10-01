@@ -247,10 +247,12 @@ button {
 }
 
 label{
+  display: block;
   font-family: lato, sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
+  padding-bottom: .8rem;
   text-transform: uppercase;
 }
 
@@ -565,9 +567,10 @@ footer {
 
 .contact-form-box{
   display: flex;
-  flex-direction: column;
-  width: 35rem;
+ flex-direction: column;
+justify-content: space-around;
   padding: 2rem 0;
+  width: 35rem;
 }
 
 .contact-name, .contact-email, .contact-phone, .contact-company{
@@ -2040,9 +2043,14 @@ q {
     text-align: center;
   }
 
+  .careers{
+  padding-bottom: 0;
+  }
+
   .careers p{
     padding-bottom: 1.6rem;
   }
+
 
 .se-family-light{
   text-align: center;
