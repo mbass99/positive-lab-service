@@ -256,6 +256,8 @@ label{
   text-transform: uppercase;
 }
 
+
+
 /* MOBILE SIZE / BASE DESIGN */
 
 /* IMAGES */
@@ -630,80 +632,17 @@ section {
 }
 
 .slider {
+  /* REMOVE */
   width: 45rem;
   text-align: center;
   overflow: hidden;
-}
-
-.hero-sliders {
-  display: flex;
-  min-height: 24rem;
-  overflow-x: auto;
-  overflow: hidden;
-  scroll-snap-type: x mandatory;
-  
-  
-  
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  
-  /*
-  scroll-snap-points-x: repeat(300px);
-  scroll-snap-type: mandatory;
-  */
+  padding-top: 10rem;
 }
 
 
-.hero-sliders::-webkit-scrollbar {
-  /* width: 10px;
-  height: 10px; */
-  display: none;
-}
-.hero-sliders::-webkit-scrollbar-thumb {
-  /* background: black;
-  border-radius: 10px; */
-  display: none;
-}
-.hero-sliders::-webkit-scrollbar-track {
-  background: transparent;
-  display: none;
-}
-
-.hero-sliders > div {
-  scroll-snap-align: start;
-  flex-shrink: 0;
-  width: 40rem;
-
-  margin-top: 5rem;
-  margin-right: 5rem;
-  /* border-radius: 10px; */
-  /* background: #eee; */
-  transform-origin: center center;
-  transform: scale(1);
-  transition: transform 0.5s;
-  position: relative;
-  
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  /* font-size: 100px; */
-}
-.hero-sliders > div:target {
-/*   transform: scale(0.8); */
-}
-#hero-slider-one, #hero-slider-two, #hero-slider-three{
-  width: 42rem;
+.hero-slider-two{
   text-align: left;
 }
-
-#hero-slider-two{
-  padding-top: 5rem;
-}
-
-/* #hero-slider-one #hero-slider-two{
-  display: flex;
-  justify-content: center;
-} */
 
 .hero-icon-label{
   align-items: baseline;
@@ -711,11 +650,12 @@ section {
   flex-direction: column;
 }
 
-#hero-slider-one{
+.hero-slider-one{
   align-items: center;
+  text-align: left;
 }
 
-#hero-slider-two{
+.hero-slider-two{
   display: flex;
   flex-direction: column;
   /* width: 40rem; */
@@ -723,18 +663,19 @@ section {
 
 }
 
-#hero-slider-three{
+.hero-slider-three{
   display: flex;
   flex-direction: column;
+  text-align: left;
   
 }
 
-#hero-slider-two h3{
+.hero-slider-two h3{
   display: flex;
   padding: 0.8rem 0;
 }
 
-#hero-slider-three h3 {
+.hero-slider-three h3 {
   display: flex;
   padding: 0.8rem 0;
 }
@@ -743,12 +684,9 @@ section {
   padding: 2rem 0;
   width: 16.8rem;
 }
-.slider-button{
-  padding-top: 2rem;
-}
 
-.slider-button a{
-  padding: 2rem;
+.pls-small-logo{
+
 }
 
 .landing-one-first-h3{

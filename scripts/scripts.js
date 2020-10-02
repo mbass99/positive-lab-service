@@ -1,6 +1,10 @@
 // SLIDER JAVASCRIPT
 
-    $(document).ready((){
-     $('.hero-sliders .slick').slick();
-       autoplay: true,
-    });
+$(document).ready(() => {
+  $('.slider .hero-sliders').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    dots: true,
+  });
+
+});
