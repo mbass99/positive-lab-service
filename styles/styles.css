@@ -1524,7 +1524,9 @@ q {
     width: 18rem;
   }
 
-  .list-with-icons {
+  
+
+  .organics-volatile .list-with-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr;
@@ -1543,6 +1545,14 @@ q {
     margin: auto;
   }
 
+  .organics-extractables .list-with-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .organics-extractables h4 {
     padding-bottom: 5.2rem;
   }
@@ -1550,6 +1560,13 @@ q {
   .extractables-secondary {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .organics-soil-vapor .list-with-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding-bottom: 2rem;
   }
 
   .column-two-of-two {
