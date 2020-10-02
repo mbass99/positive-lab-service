@@ -893,31 +893,32 @@ section {
 }
 
 
+
 .hero-image-small{
   padding-top: 5rem;
 }
 
-.resources-slider-div{
-  /* overflow: hidden; */
+.resource-sliders{
+  
 }
 
 #services-soil{
-  width: 36rem;
+  width: 35rem;
   margin-right: 5rem;
 }
 
 #services-water-services{
-  width: 36rem;
+  width: 35rem;
   margin-right: 5rem;
 }
 
 #services-hazardous-waste{
-  width: 36rem;
+  width: 35rem;
   margin-right: 5rem;
 }
 
 #services-soil-vapor{
-  width: 36rem;
+  width: 35rem;
   margin-right: 5rem;
 }
 
