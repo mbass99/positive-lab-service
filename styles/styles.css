@@ -271,8 +271,12 @@ img {
 .iconify {
   display: inline-block;
   padding-right: .8rem;
-  
-  
+}
+
+/* SLICK DOTS COLOR */
+
+.slick-dots li.slick-active button:before {
+  color: #19416F !important;
 }
 
 
@@ -898,47 +902,31 @@ section {
   padding-top: 5rem;
 }
 
-.resource-sliders{
-  
-}
+
 
 #services-soil{
   width: 35rem;
-  margin-right: 5rem;
+ 
 }
 
 #services-water-services{
   width: 35rem;
-  margin-right: 5rem;
+  
 }
 
 #services-hazardous-waste{
   width: 35rem;
-  margin-right: 5rem;
+
 }
 
 #services-soil-vapor{
   width: 35rem;
-  margin-right: 5rem;
+  
 }
 
-#services-hazardous-waste h3 {
-  padding-top: 3.2rem;
-  text-align: center;
-}
 
-#services-soil h3 {
-  padding-top: 3.2rem;
-  text-align: center;
-}
-
-#services-water-services h3 {
-  padding-top: 3.2rem;
-  text-align: center;
-}
-
-#services-soil-vapor h3 {
-  padding: 3.2rem 0;
+.services-h3 {
+  padding: 1.6rem 0;
   text-align: center;
 }
 
@@ -1508,6 +1496,13 @@ q {
   grid-gap: 2rem; */
     padding-top: 6.4rem;
   }
+
+
+  /* #services-soil #services-soil #services-hazardous-waste #services-soil-vapor{
+    padding-right: 5rem;
+  } */
+
+
 
   .methods-list
   .list-with-icons {
