@@ -1873,6 +1873,9 @@ q {
     height: 20rem;
     object-fit: cover;
   }
+  #services-hazardous-waste img{
+    height: 25.5rem;
+  }
 
   .field-services-image{
     height: 20rem;
