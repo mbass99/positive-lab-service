@@ -3,7 +3,7 @@
 $(document).ready(() => {
   $(".slider .hero-sliders").slick({
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     dots: true,
     slidestoScroll: 3,
     slidesToShow: 1,
@@ -14,7 +14,7 @@ $('.resources-sliders').slick({
   autoplay: true,
   dots: true,
   infinite: false,
-  speed: 3000,
+  speed: 5000,
   slidesToShow: 3,
   slidesToScroll: 4,
   responsive: [{
