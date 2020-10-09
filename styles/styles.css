@@ -1704,7 +1704,7 @@ q {
     justify-content: space-around;
     padding-left: 20rem;
     padding-right: 20rem;
-    padding-bottom: 0%;
+    padding-bottom: 0;
   }
 
   .column-two {
@@ -1982,14 +1982,273 @@ q {
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  /* LANDING */
+@media screen and (min-device-width: 1200px) and (max-device-width: 5000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 
-  /* TESTING */
 
-  /* SERVICES */
 
-  /* RESOURES */
 
-  /* ABOUT US */
+/* SUPER WIDE RETINA DESKTOP FOOTER */
+.footer-logo {
+  margin: auto;
+  padding-bottom: 3.2rem;
+}
+
+.footer-contact-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.back-to-top {
+  padding-bottom: 4rem;
+}
+
+
+  /* SUPER WIDE RETINA LANDING */
+
+.slider, .header-large-logo{
+  /* max-width: 160rem; */
+  /* padding-left: 20rem; */
+}
+.hero{
+  padding: 0 20rem;
+  margin: ;
+}
+
+.landing-one {
+  max-width: 160rem;
+  /* padding-left: 20rem; */
+  margin: auto;
+}
+
+.landing-one-second-h3{
+  padding-left: 10rem;
+}
+
+.landing-one p{
+  max-width: 80rem;
+  padding-left: 20rem;
+}
+
+.landing-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 100rem;
+  padding-bottom: 0;
+}
+
+.column-two {
+  padding-top: 24rem;
+}
+
+.landing-three {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 160rem;
+
+}
+
+.landing-three-left{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 6rem 0;
+  width: 40.6rem;
+}
+ /* CONTACT FORM */
+ .contact-form-box{
+  margin: auto;
+ width: 62rem;
+}
+
+
+  
+
+  /* SUPER WIDE RETINA TESTING */
+
+.organics-head p{
+  margin: auto;
+  max-width: 80rem;
+
+}
+
+  .organics-volatile .list-with-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 160rem;
+    padding: 4rem 0;
+  }
+
+  .volatile-two-and-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 160rem;
+  }
+
+  .organics-extractables .list-with-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 160rem;
+    padding: 4rem 0;
+  }
+
+  .extractables-secondary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 160rem;
+
+  }
+
+  .organics-soil-vapor .list-with-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width:80rem;
+    padding: 2rem 0;
+  }
+
+  .soil-vapor-secondary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    max-width: 160rem;
+  }
+
+  .vapor-secondary-two,
+  .vapor-secondary-four {
+    padding-top: 4rem;
+  }
+
+  .metals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 160rem;
+  }
+
+  .metal-two {
+    padding-top: 13rem;
+  }
+
+  .wet-chemistry-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin: auto;
+    max-width: 160rem;
+    padding-bottom: 3rem;
+  }
+
+
+  .wet-two,
+  .wet-four,
+  .wet-six,
+  .wet-eight {
+    padding-top: 25rem;
+  }
+
+
+
+  /* SUPER WIDE RETINA SERVICES */
+
+  .services-explanation{
+    margin: auto;
+    max-width: 160rem;
+  }
+
+  .services-main p{
+    max-width: 80rem;
+  }
+
+.mobile-laboratory{
+  margin: auto;
+  max-width: 160rem;
+}
+
+
+.field-services-image{
+  height: 20rem;
+  object-fit: cover;
+}
+
+.field-services{
+  display: flex;
+
+  margin: auto;
+  max-width: 100rem;
+}
+
+
+.mobile-laboratory, .field-services{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 160rem;
+  margin: auto;
+}
+  .mobile-laboratory .list-with-icons{
+    padding-top: 8rem;
+  }
+
+  .mobile-lab-left, .field-services-left{
+    max-width: 62rem;
+  }
+.mobile-lab-left h3{
+  text-align: left;
+}
+  
+  .field-services{
+    justify-content: space-between;
+    margin: auto;
+    max-width: 140rem;
+  }
+  
+  .field-services-left .field-services-image{
+    height: 30rem;
+    object-fit: cover;
+  }
+  
+  .field-services-left h3{
+    text-align: left;
+  }
+
+  .field-services .list-with-icons{
+    padding-left: 5rem;
+  }
+
+  .rapid-response-flex{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 70rem;
+  
+  }
+  
+
+
+  /* SUPER WIDE RETINA RESOURCES */
+  .resource-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 6rem 0;
+    margin: auto;
+    max-width: 160rem;
+  }
+
+  /* SUPER WIDE RETINA ABOUT US */
+
+
+
+  
 }
