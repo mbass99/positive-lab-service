@@ -896,13 +896,13 @@ section {
   padding-bottom: 1.6rem;
 }
 
-
-
 .hero-image-small{
   padding-top: 5rem;
 }
 
-
+#services-soil, #services-water-services, #services-hazardous-waste, #services-soil-vapor, p{
+  padding-bottom: 1.6rem;
+}
 
 #services-soil{
   width: 35rem;
