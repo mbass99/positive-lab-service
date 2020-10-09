@@ -2230,7 +2230,7 @@ q {
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 70rem;
+    max-width: 0rem;
   
   }
   
@@ -2248,7 +2248,19 @@ q {
 
   /* SUPER WIDE RETINA ABOUT US */
 
+.about-us-hero{
+  max-width: 90rem;
+  margin: auto;
+}
 
+  .company-values, .history, .mission, .careers{
+    max-width: 90rem;
+    margin: auto;
+  }
+
+  .se-family-light{
+   text-align: center;
+  }
 
   
 }
