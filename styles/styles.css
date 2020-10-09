@@ -1580,6 +1580,10 @@ q {
     padding: 6rem 10rem;
   }
 
+  .history p{
+    padding-bottom: .8rem;
+  }
+
   .careers {
     padding: 6rem 10rem;
   }
@@ -1932,7 +1936,10 @@ q {
 
   /* DESKTOP RESOURCES */
 
- 
+ .resources-hero img{
+  height: 50rem;
+  object-fit: cover;
+ }
 
   .resource-grid {
     align-items: center;
