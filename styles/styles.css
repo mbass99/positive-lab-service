@@ -2253,6 +2253,11 @@ q {
 
 
   /* SUPER WIDE RETINA RESOURCES */
+
+  .resources-hero img{
+    height: 70rem;
+    object-fit: cover;
+   }
   .resource-grid {
     align-items: center;
     display: grid;
