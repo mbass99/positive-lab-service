@@ -1489,19 +1489,18 @@ q {
 
   /* SERVICES TABLET */
 
-  /* FIX THIS WITH CAROUSEL, OTHERWISE DONE BY REMOVING COMMENTS BELOW */
-  .services-offered {
-    /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; */
-    padding-top: 6.4rem;
+ 
+
+  .slick-slide{
+    margin-left:  2rem;
+    margin-right:  2rem;
   }
 
-
-  /* #services-soil #services-soil #services-hazardous-waste #services-soil-vapor{
-    padding-right: 5rem;
-  } */
-
+  .slick-list {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    pointer-events: none;
+  }
 
 
   .methods-list
@@ -1860,18 +1859,17 @@ q {
  }
 
 
-  /* #services-water-services, #services-hazardous-waste, #services-soil, #services-soil-vapor{
-    width: 30rem;
-  } */
+ .slick-slide{
+  margin-left:  3rem;
+  margin-right:  3rem;
+}
 
-  /* DONE EXCEPT FOR SLIDER CHANGE */
+.slick-list {
+  margin-left: -3rem;
+  margin-right: -3rem;
+  pointer-events: none;
+}
 
-  .services-offered{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 12rem;
-    margin-left: 5rem; */
-  }
 
   .services-image{
     height: 20rem;
@@ -2170,6 +2168,17 @@ q {
   .services-explanation{
     margin: auto;
     max-width: 160rem;
+  }
+
+  .slick-slide{
+    margin-left:  3rem;
+    margin-right:  3rem;
+  }
+  
+  .slick-list {
+    margin-left: -3rem;
+    margin-right: -3rem;
+    pointer-events: none;
   }
 
   .services-main p{
