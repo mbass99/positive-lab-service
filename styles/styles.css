@@ -1550,6 +1550,7 @@ q {
     padding: 3rem 0;
   }
 
+ 
 .resources-list, .list-with-icons{
   display: grid;
   grid-template-columns: 1fr;
