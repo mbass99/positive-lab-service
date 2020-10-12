@@ -629,6 +629,9 @@ section {
 .hero {
   background-image: url(/images/image-final-landing-hero-shutterstock_421927375.jpg);
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .hero:background {
