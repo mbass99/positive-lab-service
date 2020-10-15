@@ -6,6 +6,19 @@
 
 <head>
     <!-- ADD GOOGLE ANALYTICS TRACKING -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180706266-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180706266-1');
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Positive Lab Service</title>
@@ -172,7 +185,7 @@
                             </li>
                             <li>
                                 <span class="iconify" data-inline="false" data-icon="mdi:vector-triangle"
-                                    style="color: #55993C;"></span>
+                                    style="color: #55993C;" data-rotate="45deg"></span>
                                 Ground Water Monitoring</li>
 
                             <li>
@@ -241,12 +254,13 @@
                                         style="color: #55993C;" data-rotate="45deg"></span>
                                     Zero Headspace Extraction </li>
 
-                                <li>
+                                <li class="list-flex">
                                     <span class="iconify" data-inline="false" data-icon="mdi:vector-triangle"
-                                        style="color: #55993C;" data-rotate="45deg"></span><span>
-                                        Title 22 WET, EPA TCLP and EPA SPLP Extractions Metals and Organics per CA Title
-                                        22
-                                        Method</span></li>
+                                        style="color: #55993C;" data-rotate="45deg"></span><span
+                                        class="span-text"></span>
+                                    Title 22 WET, EPA TCLP and EPA SPLP Extractions Metals and Organics per CA Title
+                                    22
+                                    Method</li>
                             </ul>
 
                         </div>

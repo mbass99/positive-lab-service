@@ -270,8 +270,14 @@ img {
 /* ICONIFY ICONS */
 .iconify {
   display: inline-block;
-  padding-right: .8rem;
+  padding-right: .8rem; 
 }
+
+
+
+
+
+
 
 /* SLICK DOTS COLOR */
 
@@ -927,13 +933,13 @@ section {
 
 #services-hazardous-waste{
   width: 35rem;
-
 }
 
 #services-soil-vapor{
   width: 35rem;
   
 }
+
 
 
 .services-h3 {
