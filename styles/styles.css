@@ -693,6 +693,10 @@ section {
   padding: 0.8rem 0;
 }
 
+.hero-sliders .slick-dots{
+top: 25rem;
+}
+
 .header-large-logo{
   padding: 2rem 0;
   width: 16.8rem;
@@ -913,7 +917,7 @@ section {
   padding-top: 3rem;
 }
 
-.slick-dots{
+.resources-slider-div, .slick-dots{
   top: -1rem;
 }
 
