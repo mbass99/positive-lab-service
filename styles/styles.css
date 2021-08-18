@@ -525,6 +525,10 @@ footer {
   text-transform: uppercase;
 }
 
+.pls-email{
+  text-transform: lowercase;
+}
+
 .back-to-top {
   text-align: center;
   padding: 3.2rem 0;
