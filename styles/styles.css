@@ -703,7 +703,10 @@ top: 25rem;
 
 .header-large-logo{
   padding: 2rem 0;
-  width: 16.8rem;
+  /* width: 16.8rem; */
+  /* new 2022 logo spacing */
+  width: 30rem;
+
 }
 
 
