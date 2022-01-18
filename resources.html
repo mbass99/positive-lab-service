@@ -128,7 +128,7 @@
                             info@positivelabservice.com</a></li>
                 </div>
                 <div class="footer-six">
-                    <li>&#169; 2021 All Rights Reserved</li>
+                    <li>&#169; <span id="copyright-year">2020</span> &nbsp - All Rights Reserved</li>
                 </div>
             </ul>
             <div class="mbdesign">
@@ -143,3 +143,6 @@
 </body>
 
 </html>
+<script>
+    document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+</script>
