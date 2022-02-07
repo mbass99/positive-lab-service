@@ -718,6 +718,10 @@ top: 25rem;
   padding-top: 3.2rem;
 }
 
+.landing-quote-right :hover {
+  
+}
+
 .landing-two h2 {
   padding-bottom: 0.8rem;
   text-align: center;
@@ -1674,7 +1678,7 @@ q {
   .mission-quote {
     float: right;
     margin-top: 6.4rem;
-    max-width: 35rem;
+    width: 35rem;
   }
 
   .careers {
@@ -2060,7 +2064,7 @@ q {
   .mission-quote{
     float: right;
     margin-top: 8rem;
-    max-width: 35rem;
+    width: 35rem;
   }
 
   .careers h2{
@@ -2128,7 +2132,7 @@ q {
 
 /* added in 2022 new spacing */
 .mission-quote{
-  max-width: 40rem;
+  width: 35rem;
 }
 
 .landing-one-second-h3{
