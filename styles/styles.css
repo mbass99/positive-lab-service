@@ -718,6 +718,16 @@ top: 25rem;
   padding-top: 3.2rem;
 }
 
+
+.client-quote {
+  background-color: #edf2f7;
+  border: solid #1e4e85;
+  border-width: thin;
+  margin: 2.4rem 0;
+  max-width: 44rem;
+  padding: 1rem;
+}
+
 .landing-quote-right :hover {
   
 }
@@ -1416,6 +1426,13 @@ q {
     margin: auto;
   }
 
+  .client-quote{
+    margin: auto;
+    float: right;
+    margin-top: 6.4rem;
+    width: 35rem;
+  }
+
   .mission-quote{
     margin: auto;
   }
@@ -1775,7 +1792,7 @@ q {
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /* .mission-quote{
@@ -2118,14 +2135,16 @@ q {
 }
 .hero{
   padding: 0 20rem;
-  margin: ;
+ 
 }
+
 
 /* added in 2022 new spacing */
 .landing-one {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: auto;
   max-width: 160rem;
   /* padding-left: 20rem; */
 }
