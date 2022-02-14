@@ -718,7 +718,6 @@ top: 25rem;
   padding-top: 3.2rem;
 }
 
-
 .client-quote {
   background-color: #edf2f7;
   border: solid #1e4e85;
@@ -726,6 +725,14 @@ top: 25rem;
   margin: 2.4rem 0;
   max-width: 44rem;
   padding: 1rem;
+}
+
+.thank-you-hide{
+  display: none;
+}
+
+.client-quote:hover + .thank-you-hide{
+display: block;
 }
 
 .landing-quote-right :hover {
